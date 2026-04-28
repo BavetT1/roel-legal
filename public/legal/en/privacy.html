@@ -6,51 +6,76 @@
     <title>ROEL — Privacy Policy</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: #0a0a0a; color: #e0e0e0; padding: 24px; max-width: 640px; margin: 0 auto; line-height: 1.6; }
-        h1 { font-size: 24px; color: #d4a853; margin-bottom: 8px; }
-        h2 { font-size: 18px; color: #fff; margin-top: 28px; margin-bottom: 8px; }
-        p, li { font-size: 14px; color: #b0b0b0; margin-bottom: 8px; }
-        ul { padding-left: 20px; }
-        .date { font-size: 12px; color: #666; margin-bottom: 24px; }
-        a { color: #d4a853; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+            background: #0D0D0F;
+            color: #e0e0e0;
+            padding: 40px 24px;
+            max-width: 680px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+        h1 { font-size: 26px; color: #F5C80F; margin-bottom: 6px; }
+        h2 { font-size: 17px; color: #fff; margin-top: 32px; margin-bottom: 10px; font-weight: 600; }
+        p, li { font-size: 14px; color: #a0a0a0; margin-bottom: 10px; }
+        ul { padding-left: 22px; margin-bottom: 10px; }
+        li { margin-bottom: 6px; }
+        .date { font-size: 12px; color: #555; margin-bottom: 32px; }
+        a { color: #F5C80F; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .back { display: inline-block; margin-bottom: 32px; font-size: 13px; color: #555; }
+        .back:hover { color: #F5C80F; }
+        strong { color: #e0e0e0; }
     </style>
 </head>
 <body>
+    <a class="back" href="/">← roel.app</a>
     <h1>Privacy Policy</h1>
-    <p class="date">Effective date: April 2, 2026</p>
+    <p class="date">Effective date: April 28, 2026</p>
 
-    <p>ROEL ("we", "our", "the app") is a camera application for iOS. We respect your privacy and are committed to protecting your personal data.</p>
+    <p>ROEL ("the app", "we", "our") is a film-style camera application for iPhone. We take your privacy seriously and are committed to protecting your personal information.</p>
 
     <h2>1. Data We Collect</h2>
     <p><strong>We do not collect any personal data.</strong></p>
     <ul>
-        <li>All photos are processed locally on your device using the GPU.</li>
-        <li>Photos are saved to your device's Photo Library and never uploaded to our servers.</li>
-        <li>We do not use analytics, tracking, or advertising SDKs.</li>
+        <li>All photos are processed locally on your device using the GPU and are never uploaded to our servers.</li>
+        <li>Captured photos are saved to your iPhone's Photo Library; we cannot access them.</li>
+        <li>We do not use any analytics, advertising, or tracking SDKs.</li>
+        <li>We do not create user accounts and do not require registration.</li>
     </ul>
 
     <h2>2. Camera & Photo Library Access</h2>
-    <p>The app requests access to your camera and photo library solely to take and save photos. These permissions can be revoked at any time in iOS Settings.</p>
+    <p>The app requests access to your camera and photo library solely to capture and save photos. You can revoke these permissions at any time in <strong>Settings → ROEL</strong> on your iPhone. Without the corresponding permission, the related features will be unavailable.</p>
 
-    <h2>3. Subscriptions</h2>
-    <p>ROEL Pro subscriptions are processed by Apple through the App Store. We use RevenueCat to manage subscription status. RevenueCat receives an anonymous app user ID — no email, name, or other personal information is shared. See <a href="https://www.revenuecat.com/privacy">RevenueCat's Privacy Policy</a>.</p>
+    <h2>3. Purchases & Subscriptions</h2>
+    <p>In-app subscriptions and one-time purchases are processed through the Apple App Store. We use <strong>RevenueCat</strong> to manage subscription status. RevenueCat receives only an anonymous app user ID — no name, email address, or other personal information is shared. See RevenueCat's privacy policy at <a href="https://www.revenuecat.com/privacy" target="_blank">revenuecat.com/privacy</a>.</p>
+    <p>Apple processes payment information independently in accordance with its own privacy policy. We do not receive or store your payment card or banking data.</p>
 
     <h2>4. Third-Party Services</h2>
+    <p>The app uses the following third-party services:</p>
     <ul>
         <li><strong>RevenueCat</strong> — subscription management (anonymous ID only)</li>
         <li><strong>Apple App Store</strong> — payment processing</li>
     </ul>
+    <p>No other SDKs or third-party libraries that transmit data to external servers are integrated in the app.</p>
 
-    <h2>5. Data Retention</h2>
-    <p>We do not store any user data on external servers. All app settings are stored locally on your device via UserDefaults and are deleted when the app is uninstalled.</p>
+    <h2>5. Local Data Storage</h2>
+    <p>App settings, film roll history, and your photos are stored exclusively on your device using standard iOS mechanisms (SwiftData, UserDefaults). This data is not shared with any third party and is deleted when you uninstall the app.</p>
 
     <h2>6. Children's Privacy</h2>
-    <p>The app is not directed at children under 13. We do not knowingly collect data from children.</p>
+    <p>The app is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided us with personal data, please contact us and we will take the necessary steps to address it.</p>
 
-    <h2>7. Changes</h2>
-    <p>We may update this policy. Changes will be posted on this page with an updated effective date.</p>
+    <h2>7. International Data Transfers</h2>
+    <p>Because we do not collect or store personal data on our servers, no cross-border transfer of personal data takes place on our side. RevenueCat and Apple process data under their own policies, which comply with applicable data protection laws.</p>
 
-    <h2>8. Contact</h2>
-    <p>Questions? Email us at <a href="mailto:roel@proton.me">roel@proton.me</a></p>
+    <h2>8. Your Rights</h2>
+    <p>Because we do not process personal data, most data subject rights (access, correction, deletion) can be exercised directly through native iOS tools: uninstalling the app, resetting its settings, or managing subscriptions through your Apple ID.</p>
+    <p>For data rights related to RevenueCat or Apple, please contact those companies directly.</p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. The current version is always available at this URL. Continued use of the app after changes are posted constitutes your acceptance of the updated policy.</p>
+
+    <h2>10. Contact</h2>
+    <p>For privacy-related questions, email us at <a href="mailto:roel@proton.me">roel@proton.me</a></p>
 </body>
 </html>
